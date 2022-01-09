@@ -88,7 +88,7 @@ function drawBars(start, end) {
 	}
 
 	for (let i = start; i <= end; i++) {
-		ctrl.fillStyle = "orange"
+		ctrl.fillStyle = "purple"
 		ctrl.fillRect(25 * i, 300 - arr[i], 18, arr[i])
 		ctrl.fillStyle = "#cdff6c"
 		ctrl.fillRect(25 * i,300, 18, arr[i])
